@@ -1,0 +1,55 @@
+
+.container {
+  max-width: 100%;
+  width: 100%;
+
+}
+
+header {
+  .container {
+    nav {
+      .cart-link {
+        border: 1px solid #000;
+        padding: 10px;
+      }
+    }
+
+  }
+}
+
+.banner {
+  .container{
+    padding: 0;
+    position: relative;
+    .banner-content {
+      .banner-content_title {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        h2 {
+          font-size: 55px;
+          color:#fff;
+        }
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.products {
+  .container {
+    width: 85%;
+    .card {
+      button {
+        margin-left: auto;
+        display: block;
+        margin-right: auto
+      }
+
+    }
+  }
+}
